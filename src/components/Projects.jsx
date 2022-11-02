@@ -1,5 +1,5 @@
 import React from "react";
-import Beach from "../assets/beach.png";
+import Hulu from "../assets/hulu.png";
 import Crypto from "../assets/crypto.png";
 import Yumeat from "../assets/yumeats.png";
 import Gym from "../assets/gymweb.png";
@@ -91,21 +91,21 @@ const Projects = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${Beach})` }}
+            style={{ backgroundImage: `url(${Hulu})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* hover effects  */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+                Next JS Application
               </span>
               <div className="pt-8 text-center">
-                <a href="https://elegant-croquembouche-7cdd2e.netlify.app/">
+                <a href="https://nextjs-hulu20.vercel.app/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/RichHig/React-Travel-App">
+                <a href="https://github.com/RichHig/nextjs-hulu2.0">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
