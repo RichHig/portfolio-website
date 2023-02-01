@@ -1,8 +1,8 @@
 import React from "react";
 import Hulu from "../assets/hulu.png";
-import Crypto from "../assets/crypto.png";
-import Yumeat from "../assets/yumeats.png";
+import Airbnb from "../assets/airbnb.png";
 import Gym from "../assets/gymweb.png";
+import Advina from "../assets/advina.png";
 
 const Projects = () => {
   return (
@@ -22,7 +22,7 @@ const Projects = () => {
         <div className="grid sm:grid-cols-2 md:grid-cols-2 gap-4">
           {/* grid item  */}
           <div
-            style={{ backgroundImage: `url(${Yumeat})` }}
+            style={{ backgroundImage: `url(${Airbnb})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* hover effects  */}
@@ -31,12 +31,12 @@ const Projects = () => {
                 React JS Application
               </span>
               <div className="pt-8 text-center">
-                <a href="https://cerulean-cranachan-41c02d.netlify.app/">
+                <a href="https://air-bnb-ruddy.vercel.app/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/RichHig/React-Yum-Eats">
+                <a href="https://github.com/RichHig/AirBnb">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -68,7 +68,7 @@ const Projects = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${Crypto})` }}
+            style={{ backgroundImage: `url(${Advina})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* hover effects  */}
@@ -77,12 +77,12 @@ const Projects = () => {
                 React JS Application
               </span>
               <div className="pt-8 text-center">
-                <a href="https://idyllic-creponne-be35d9.netlify.app/">
+                <a href="https://bright-macaron-b3fdd9.netlify.app/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/RichHig/React-CryptoFi-App">
+                <a href="https://github.com/RichHig/Hotel-Adina-React-App">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
