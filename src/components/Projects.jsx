@@ -1,5 +1,5 @@
 import React from "react";
-import Hulu from "../assets/hulu.png";
+import Rental from "../assets/car-rent.png";
 import Airbnb from "../assets/airbnb.png";
 import Gym from "../assets/gymweb.png";
 import Advina from "../assets/advina.png";
@@ -22,7 +22,7 @@ const Projects = () => {
         <div className="grid sm:grid-cols-2 md:grid-cols-2 gap-4">
           {/* grid item  */}
           <div
-            style={{ backgroundImage: `url(${Airbnb})` }}
+            style={{ backgroundImage: `url(${Rental})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* hover effects  */}
@@ -31,12 +31,12 @@ const Projects = () => {
                 React JS Application
               </span>
               <div className="pt-8 text-center">
-                <a href="https://air-bnb-ruddy.vercel.app/">
+                <a href="https://lucky-meringue-2c95ed.netlify.app/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/RichHig/AirBnb">
+                <a href="https://github.com/RichHig/car-rent">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -91,7 +91,7 @@ const Projects = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${Hulu})` }}
+            style={{ backgroundImage: `url(${Airbnb})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* hover effects  */}
@@ -100,12 +100,12 @@ const Projects = () => {
                 Next JS Application
               </span>
               <div className="pt-8 text-center">
-                <a href="https://nextjs-hulu20.vercel.app/">
+                <a href="https://air-bnb-ruddy.vercel.app/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/RichHig/nextjs-hulu2.0">
+                <a href="https://github.com/RichHig/AirBnb">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
