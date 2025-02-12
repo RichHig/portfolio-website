@@ -15,17 +15,19 @@ const About = () => {
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
           <div className="sm:text-right text-4xl font-bold">
             <p>
-              Hi. I'm Richard Higenbottam, nice to meet you. Please take a look
-              around.
+              Hi. I'm Richard Higenbottam. I am a dedicated Product Manager with
+              a passion for transforming innovative ideas into market-leading
+              solutions.
             </p>
           </div>
           <div>
             <p>
-              I am passionate about building excellent applications that
-              provides meaningful experiences. Throughout my working career i
-              have worked in target driven industries and understand
-              successfully how to structure my work to become an asset to your
-              team.
+              With a strong background in technology and product strategy, I
+              have successfully driven projects that leverage blockchain and AI
+              to solve real-world challenges. My experience in target-driven
+              industries and my commitment to user-centric design have enabled
+              me to create products that deliver measurable impact and lasting
+              value.
             </p>
           </div>
         </div>
