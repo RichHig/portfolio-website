@@ -11,12 +11,12 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#020409] text-gray-300">
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#020409] text-gray-300 z-50">
       <div>
         <img src={Logo} alt="logo" className="w-24 h-20" />
       </div>
 
-      {/* Menu  */}
+      {/* Desktop Menu */}
       <ul className="hidden md:flex">
         <li>
           <Link to="home" smooth={true} duration={500}>
@@ -45,12 +45,12 @@ const Navbar = () => {
         </li>
       </ul>
 
-      {/* Hamburger  */}
+      {/* Hamburger Icon */}
       <div onClick={handleClick} className="md:hidden z-10">
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
 
-      {/* mobile menu  */}
+      {/* Mobile Menu */}
       <ul
         className={
           !nav
@@ -90,13 +90,13 @@ const Navbar = () => {
         </li>
       </ul>
 
-      {/* social icons  */}
+      {/* Social Icons */}
       <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
         <ul>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="https://www.linkedin.com/in/richard-higenbottam-dippfs-507a6738?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BoLhKkuPZTJOBBlT3N2Mv9w%3D%3D"
+              href="https://www.linkedin.com/in/richard-higenbottam-dippfs-507a6738/"
             >
               Linkedin <FaLinkedin size={30} />
             </a>
