@@ -71,6 +71,11 @@ const Projects = () => {
                     Code
                   </button>
                 </a>
+                <a href="https://docs.google.com/document/d/13iU9fZ9Uijmj97X2vmcQv4AamYkUMuFNYu0c9qrsHRQ/edit?usp=sharing">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Case Study
+                  </button>
+                </a>
               </div>
             </div>
           </div>
