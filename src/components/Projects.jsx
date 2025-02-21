@@ -1,8 +1,9 @@
 import React from "react";
 import Rental from "../assets/car-rent.png";
-import Gym from "../assets/gymweb.png";
+
 import Advina from "../assets/advina.png";
 import freelance from "../assets/freelance.png";
+import aiapmop from "../assets/aiapmop.png";
 
 const Projects = () => {
   return (
@@ -52,20 +53,20 @@ const Projects = () => {
 
           {/* Project Item 2 */}
           <div
-            style={{ backgroundImage: `url(${Gym})` }}
+            style={{ backgroundImage: `url(${aiapmop})` }}
             className="shadow-lg group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             <div className="opacity-0 group-hover:opacity-100 transition duration-300">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+                React/ Python / ML / AI
               </span>
               <div className="pt-8 text-center">
-                <a href="https://sensational-platypus-614cc3.netlify.app/">
+                <a href="https://aiapmoptimization.netlify.app/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/RichHig/React-Fitness-App">
+                <a href="https://github.com/RichHig/apm-optimization-tool">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
